@@ -11,7 +11,7 @@ export RK_CHIP=rv1106
 export RK_APP_TYPE=RKIPC_RV1106
 
 # Config CMA size in environment
-export RK_BOOTARGS_CMA_SIZE="66M"
+export RK_BOOTARGS_CMA_SIZE="1M"
 
 # Kernel dts
 export RK_KERNEL_DTS=rv1106g-luckfox-pico-pro-max.dts
