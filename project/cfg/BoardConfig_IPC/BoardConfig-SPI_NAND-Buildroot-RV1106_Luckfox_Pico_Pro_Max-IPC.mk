@@ -97,7 +97,7 @@ export RK_KERNEL_DEFCONFIG=luckfox_rv1106_linux_defconfig
 #export RK_CAMERA_SENSOR_CAC_BIN="CAC_sc4336_OT01_40IRC_F16 CAC_sc530ai_CMK-OT2115-PC1_30IRC-F16"
 
 # build ipc web backend
-## export RK_APP_IPCWEB_BACKEND=n
+export RK_APP_IPCWEB_BACKEND=n
 
 # enable install app to oem partition
 export RK_BUILD_APP_TO_OEM_PARTITION=n
