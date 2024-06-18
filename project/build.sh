@@ -1877,7 +1877,7 @@ function build_firmware(){
 
 	# package a empty userdata parition image
 	mkdir -p $RK_PROJECT_PACKAGE_USERDATA_DIR
-	build_mkimg userdata $RK_PROJECT_PACKAGE_USERDATA_DIR
+	#build_mkimg userdata $RK_PROJECT_PACKAGE_USERDATA_DIR
 
 	build_tftp_sd_update
 
