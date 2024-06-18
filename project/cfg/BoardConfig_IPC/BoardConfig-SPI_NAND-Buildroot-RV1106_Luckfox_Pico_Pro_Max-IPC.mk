@@ -36,7 +36,7 @@ export RK_UBOOT_DEFCONFIG_FRAGMENT=rk-sfc.config
 # Note:
 #   If the first partition offset is not 0x0, it must be added. Otherwise, it needn't adding.
 #export RK_PARTITION_CMD_IN_ENV="256K(env),256K@256K(idblock),512K(uboot),4M(boot),30M(oem),10M(userdata),210M(rootfs)"
-export RK_PARTITION_CMD_IN_ENV="256K(env),256K@256K(idblock),512K(uboot),4M(boot),251M(rootfs)"
+export RK_PARTITION_CMD_IN_ENV="256K(env),256K@256K(idblock),512K(uboot),4M(boot),250M(rootfs)"
 
 # config partition's filesystem type (squashfs is readonly)
 # emmc:    squashfs/ext4
