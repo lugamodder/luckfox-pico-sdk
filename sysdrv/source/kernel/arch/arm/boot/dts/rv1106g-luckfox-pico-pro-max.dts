@@ -78,11 +78,11 @@
 	status = "okay";
 	pinctrl-0 = <&i2c3m1_xfer>;
 	clock-frequency = <100000>;
-        ina225: ina226@40 {
-             compatible = "ti,ina226";
-             reg = <0x40>;
-             shunt-resistor = <2000>;
-        };
+//        ina225: ina226@40 {
+//             compatible = "ti,ina226";
+//             reg = <0x40>;
+//             shunt-resistor = <2000>;
+//        };
 
 };
 
